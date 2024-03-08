@@ -1,5 +1,3 @@
-/* Your styles here */
-
 h1,
 h2,
 h3,
@@ -44,7 +42,6 @@ main {
   font-weight: 500;
 }
 
-/* AGGIUNGERE ALTRI ELEMENTI IN BIANCO */
 a,
 h3,
 h2,
@@ -85,11 +82,9 @@ h1 {
   font-weight: 500;
 }
 
-/* MODIFICAREEEEEEEEEEEEEE SI MUOVE CON LA PAGINA */
 .holiday {
   background-image: url(../images/bg-image.png);
-  background-size: cover;
-  background-size: 100%;
+  background-size: contain;
 }
 
 .holiday > h1 {
@@ -144,9 +139,10 @@ h1 {
   height: 17em;
   background-size: cover;
   background-position: center; /* Centra l'immagine all'interno del contenitore */
-  margin-right: 10px;
+  margin-right: 2.5em;
   border-radius: 7%;
   cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Aggiungi una leggera sfumatura grigia */
 }
 
 .banner-text > p,
