@@ -60,7 +60,6 @@ h1 {
 
 .discount > h3 {
   padding: 0.9em;
-  color: ;
 }
 
 .holiday {
@@ -76,4 +75,44 @@ h1 {
 
 .holiday > h2 {
   padding: 0 0 2em 0;
+}
+
+/* WORKING ON CARDS */
+
+.cards-container {
+  margin: 2em 0;
+  background-color: white;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-left > a {
+  display: inline-block;
+  color: #226369;
+  padding: 1em 0;
+}
+
+.text-left > p {
+  padding: 1em;
+  display: inline-block;
+}
+
+.card {
+  display: inline-block;
+  margin: 0 auto;
+
+  /* margin: 4em 0;
+  border: 1px solid #dee1e3;
+  box-shadow: 0px 0px 0.5px 0.2px #dee1e3;
+  border-radius: 1%;
+  margin-right: 1.5em; */
+}
+
+.card > img {
+  width: 15em;
+}
+
+#card-hold {
+  display: block;
 }
