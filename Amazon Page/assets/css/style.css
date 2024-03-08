@@ -1,1 +1,79 @@
 /* Your styles here */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+body {
+  background-color: #e9edee;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 8em;
+  padding: 0.5em 0 0.9em 1em;
+}
+
+/* AGGIUNGERE ALTRI ELEMENTI IN BIANCO */
+a,
+h3,
+h2,
+h1 {
+  text-decoration: none;
+  color: #e0f4f2;
+}
+
+.text-center {
+  text-align: center;
+}
+.bg-dark {
+  background-color: #222f3f;
+  width: 100%;
+}
+
+.bg-lightgray {
+  background-color: #364757;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.discount {
+  background-color: #f56502;
+  margin: 2em 0;
+}
+
+.discount > h3 {
+  padding: 0.9em;
+  color: ;
+}
+
+.holiday {
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.holiday > h1 {
+  padding: 3em 0 1em 0;
+  font-size: 1.6em;
+}
+
+.holiday > h2 {
+  padding: 0 0 2em 0;
+}
